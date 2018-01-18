@@ -1,0 +1,19 @@
+Button {
+  margin-top: 50px;
+}
+
+.question {
+  display: none;
+  
+}
+.firstQuestions {
+  text-align: center;
+
+}
+.container {
+  margin-left: 500px;
+}
+
+label {
+  font-size: 25px;
+}
