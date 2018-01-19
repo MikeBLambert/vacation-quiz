@@ -7,62 +7,59 @@
     <title>Vacation Qui</title>
   </head>
   <body>
-    <div class="firstQuestions">
+    <div class="landingQuestion">
       <h1>Not sure where to go on vacation?</h1>
       <h2>Take the following quiz to find out...</h2>
 
       <button id="buttonStart" class="btn btn-lg btn-success">Start Quiz!</button>
     </div>
+
     <div class="container">
 
-      <form id="q1">
-        <div class="question">
-          <h2>Do you prefer big cities or nature?</h2>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="bigCities">Big Cities</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="Nature">Nature</label>
-          </div>
-          <button class="btn btn-lg btn-success">Submit</button>
+      <form class="question" id="q1">
+        <h2>Do you prefer big cities or nature?</h2>
+        <div class="radio">
+          <label><input type="radio" name="optradio1" value="bigCities">Big Cities</label>
         </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio1" value="Nature">Nature</label>
+        </div>
+        <button class="btn btn-lg btn-success">Submit</button>
       </form>
-      <form id="q2"
-        <div class="question">
-          <h2>Are you introverted or extroverted?</h2>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="introverted">Introverted</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="extroverted">Extroverted</label>
-          </div>
-          <button class="btn btn-lg btn-success">Submit</button>
+
+      <form class="question" id="q2">
+        <h2>Are you introverted or extroverted?</h2>
+        <div class="radio">
+          <label><input type="radio" name="optradio2" value="introverted">Introverted</label>
         </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio2" value="extroverted">Extroverted</label>
+        </div>
+        <button class="btn btn-lg btn-success">Submit</button>
       </form>
-      <form id="q3"
-        <div class="question">
-          <h2>Do you prefer singing or dancing?</h2>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="singing">Singing</label>
-            </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="dancing">Dancing</label>
-          </div>
-          <button class="btn btn-lg btn-success">Submit</button>
+      <form class="question" id="q3">
+        <h2>Do you prefer singing or dancing?</h2>
+        <div class="radio">
+          <label><input type="radio" name="optradio3" value="singing">Singing</label>
         </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio3" value="dancing">Dancing</label>
+        </div>
+        <button class="btn btn-lg btn-success">Submit</button>
       </form>
-      <form id="q4">
-        <div class="question">
-          <h2>Do you prefer the ocean or the mountains</h2>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="ocean">The Ocean</label>
-          </div>
-          <div class="radio">
-            <label><input type="radio" name="optradio" value="mountains">The Mountains</label>
-          </div>
-          <button class="btn btn-lg btn-success">Submit</button>
+
+      <form class="question" id="q4">
+        <h2>Do you prefer the ocean or the mountains</h2>
+        <div class="radio">
+          <label><input type="radio" name="optradio4" value="ocean">The Ocean</label>
         </div>
+        <div class="radio">
+          <label><input type="radio" name="optradio4" value="mountains">The Mountains</label>
+        </div>
+        <button class="btn btn-lg btn-success">Submit</button>
       </form>
     </div>
+    <div class="result"></div>
+
   </body>
 </html>
